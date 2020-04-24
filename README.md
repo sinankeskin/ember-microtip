@@ -1,7 +1,7 @@
 ember-microtip
 ==============================================================================
 
-[Short description of the addon.]
+Ember addon for pure css [Microtip](https://microtip.now.sh/) tooltip library.
 
 
 Compatibility
@@ -23,7 +23,19 @@ ember install ember-microtip
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+microtip is an element modifier. Simply add to an element like;
+
+```handlebars
+<button type="button" {{microtip 'Hey there!' 'right' 'small'}}>
+  Tooltip
+</button>
+```
+
+First parameter is for label. Required.
+Second parameter is for position. Optional. Default: top
+Third parameter is for size. Optional. Default: fit
+
+For parameter and other details [click](https://github.com/ghosh/microtip#usage).
 
 
 Contributing
