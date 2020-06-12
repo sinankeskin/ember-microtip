@@ -1,27 +1,20 @@
-ember-microtip
-==============================================================================
+# ember-microtip
 
 Ember addon for pure css [Microtip](https://microtip.now.sh/) tooltip library.
 
+## Compatibility
 
-Compatibility
-------------------------------------------------------------------------------
+- Ember.js v3.12 or above
+- Ember CLI v2.13 or above
+- Node.js v10 or above
 
-* Ember.js v3.12 or above
-* Ember CLI v2.13 or above
-* Node.js v10 or above
-
-
-Installation
-------------------------------------------------------------------------------
+## Installation
 
 ```
 ember install ember-microtip
 ```
 
-
-Usage
-------------------------------------------------------------------------------
+## Usage
 
 microtip is an element modifier. Simply add to an element like;
 
@@ -31,20 +24,16 @@ microtip is an element modifier. Simply add to an element like;
 </button>
 ```
 
-First parameter is for label. Required.
-Second parameter is for position. Optional. Default: top
-Third parameter is for size. Optional. Default: fit
+- First parameter is for label. ( Required )
+- Second parameter is for position. ( Optional - Default: top )
+- Third parameter is for size. ( Optional - Default: fit )
 
 For parameter and other details [click](https://github.com/ghosh/microtip#usage).
 
-
-Contributing
-------------------------------------------------------------------------------
+## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
-
-License
-------------------------------------------------------------------------------
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
