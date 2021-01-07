@@ -1,7 +1,10 @@
 import { isPresent } from '@ember/utils';
 import { modifier } from 'ember-modifier';
 
-export default modifier(function microtip(element, [label, position, size] /*, hash*/) {
+export default modifier(function microtip(
+  element,
+  [label, position, size] /*, hash*/
+) {
   if (isPresent(label)) {
     element.setAttribute('aria-label', label);
 
