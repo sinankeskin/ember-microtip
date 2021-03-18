@@ -31,8 +31,8 @@
     "update:all": "run-s update deploy"
   },
   "dependencies": {
-    "ember-cli-babel": "^7.23.1",
-    "ember-cli-htmlbars": "^5.6.5",
+    "ember-cli-babel": "^7.26.0",
+    "ember-cli-htmlbars": "^5.7.0",
     "ember-modifier": "^2.1.1",
     "microtip": "^0.2.2"
   },
