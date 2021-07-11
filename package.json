@@ -1,6 +1,6 @@
 {
   "name": "ember-microtip",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Ember addon for Microtip tooltip library.",
   "keywords": [
     "ember-addon",
