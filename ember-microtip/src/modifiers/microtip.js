@@ -1,5 +1,6 @@
 import { isPresent } from '@ember/utils';
 import { modifier } from 'ember-modifier';
+import 'microtip/microtip.css';
 
 export default modifier(
   (element, [label, position, size]) => {

@@ -2,13 +2,11 @@
 
 Ember addon for pure css [Microtip](https://microtip.now.sh/) tooltip library.
 
-
 ## Compatibility
 
-* Ember.js v3.28 or above
-* Ember CLI v3.28 or above
-* Node.js v14 or above
-
+- Ember.js v3.28 or above
+- Ember CLI v3.28 or above
+- Node.js v14 or above
 
 ## Installation
 
@@ -21,7 +19,7 @@ ember install ember-microtip
 microtip is an element modifier. Simply add to an element like;
 
 ```handlebars
-<button type="button" {{microtip 'Hey there!' 'right' 'small'}}>
+<button type='button' {{microtip 'Hey there!' 'right' 'small'}}>
   Tooltip
 </button>
 ```
@@ -35,7 +33,6 @@ For parameter and other details [click](https://github.com/ghosh/microtip#usage)
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
-
 
 ## License
 
